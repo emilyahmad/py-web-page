@@ -1,0 +1,158 @@
+@charset "utf-8";
+@import url("cw_layout.css");
+
+/* 1 - Emily Ahmad, 2/6/2026
+*/
+
+/* 2 - Structural Styles */
+html {
+	background-color: rgb(151, 151, 151);
+}
+
+/* 3 */
+
+body {
+	background-color: rgb(180, 180, 223);
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* 4 */
+
+h1, h2 {
+	font-weight: normal;
+}
+
+/* 5 */
+nav ul li a {
+  text-decoration: none;
+}
+
+/* 6 */
+footer {
+  color: white;
+  background-color: rgb(101, 101, 101);
+  font-size: 0.8em;
+  text-align: center;
+  padding: 1px 0;
+}
+
+
+/* Body Header Styles */
+/* 7 */
+body > header {
+  background-color: rgb(97, 97, 211);
+}
+
+
+/* 8 */
+body > header > h1 {
+  font-size: 4vw;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Limelight, cursive;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+/* 9 */
+body > header > h1 span {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+
+/* Navigation Style */
+/* 10 */
+#mainLinks a {
+  padding: 5px 0;
+}
+
+/* 11 */
+#mainLinks a:link,
+#mainLinks a:visited {
+  color: white;
+}
+
+/* 12 */
+#mainLinks a:hover,
+#mainLinks a:active {
+  color: white;
+  opacity: 0.8;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+/* Outline Styles */
+/* 13 */
+#outline {
+  color: rgb(51, 51, 51);
+  font-size: 0.8em;
+}
+
+/* 14 */
+#outline h1 {
+  text-align: center;
+}
+
+/* 15 */
+#outline > ol {
+  line-height: 2em;
+  margin: 0 5px;
+  list-style-type: upper-roman;
+}
+
+
+/* 16 */
+#outline ol ol {
+  list-style-type: upper-alpha;
+}
+
+
+/* 17 */
+#outline a:link,
+#outline a:visited {
+  color: rgb(101, 101, 101);
+}
+
+
+/* 18 */
+#outline a:hover,
+#outline a:active {
+  color: rgb(97, 97, 211);
+  text-decoration: underline;
+}
+
+
+
+/* Section Styles */
+/*  19 */
+section {
+  background-color: rgb(220, 220, 220);
+}
+
+section header h1 {
+	font-size: 2.2em;
+	padding-left: 10px;
+}
+
+
+/* Article Styles */
+
+article h2 {
+	font-size: 1.4em;
+}
+
+article p:first-of-type::first-letter {
+	font-size: 2em;
+	vertical-align: baseline;
+}
+
+
+/* Aside Styles */
+
+aside {
+	font-size: 0.9em;
+}
+
+/* 20 */
+aside h1 {
+  font-size: 1.4em;
+  text-align: center;
+}
